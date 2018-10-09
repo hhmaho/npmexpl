@@ -1,10 +1,3 @@
-// http://expressjs.com/en/api.html
-/*module.exports = function (app) {
-    app.get('/api/*', (req, res) => {
-      res.json("test")
-    });
-   }
-   */
 const https = require('https')
 
 function getPackageJSON(packageName, callback, errorCallback) {
